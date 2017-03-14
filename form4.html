@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Evaluation Form</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">-->
+</head>
+<body style="background-color: #f7f7f9;">
+<div class="container">
+
+    <div class="m-3">
+        <form action="#" method="post">
+
+            <div class="">
+                <div class="card mb-4">
+                    <div class="card-block">
+                        <h2 class="mb-4">CAMP ADMINISTRATION</h2>
+
+                        <div class="form-group row">
+                            <label for="" class="col-sm-4 col-form-label">Were corps members co-opted into Camp Committee?</label>
+                            <div class="col-sm-8">
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="camp_committee" id="" value="yes">
+                                        Yes
+                                    </label>
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="camp_committee" id="" value="no">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="" class="col-sm-4 col-form-label">How effective were the following Camp Committees?</label>
+                            <div class="col-sm-8">
+                                <table class="table table-responsive">
+                                    <thead class="thead-default">
+                                    <tr>
+                                        <th>S/NO</th>
+                                        <th>Camp Committees</th>
+                                        <th>Very Effective</th>
+                                        <th>Effective</th>
+                                        <th>Ineffective</th>
+                                        <th>Don't Know</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <th scope="row">a.</th>
+                                        <td>Registration</td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="registration" id="registration_very_effective" value="very effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="registration" id="registration_effective" value="effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="registration" id="registration_ineffective" value="ineffective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="registration" id="registration_dont_know" value="dont know">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">b.</th>
+                                        <td>Food</td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="food" id="food_very_effective" value="very effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="food" id="food_effective" value="effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="food" id="food_ineffective" value="ineffective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="food" id="food_dont_know" value="dont know">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">c.</th>
+                                        <td>Health</td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="health" id="health_very_satisfied" value="very effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="health" id="health_effective" value="effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="health" id="health_ineffective" value="ineffective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="health" id="health_dont_know" value="dont know">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">d.</th>
+                                        <td>Socials</td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="socials" id="socials_very_satisfied" value="very effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="socials" id="socials_effective" value="effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="socials" id="socials_ineffective" value="ineffective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="socials" id="socials_dont_know" value="dont know">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">e.</th>
+                                        <td>Disciplinary</td>   
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="disciplinary" id="disciplinary_very_satisfied" value="very effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="disciplinary" id="disciplinary_effective" value="effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="disciplinary" id="disciplinary_ineffective" value="ineffective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="disciplinary" id="disciplinary_dont_know" value="dont know">
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th scope="row">f.</th>
+                                        <td>Maintenance</td>   
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="maintenance" id="maintenance_very_satisfied" value="very effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="maintenance" id="maintenance_effective" value="effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="maintenance" id="maintenance_ineffective" value="ineffective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="maintenance" id="maintenance_dont_know" value="dont know">
+                                        </td>
+                                    </tr>
+
+                                     <tr>
+                                        <th scope="row">g.</th>
+                                        <td>Lecture</td>   
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="lecture" id="lecture_very_satisfied" value="very effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="lecture" id="lecture_effective" value="effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="lecture" id="lecture_ineffective" value="ineffective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="lecture" id="lecture_dont_know" value="dont know">
+                                        </td>
+                                    </tr>
+
+                                     <tr>
+                                        <th scope="row">h.</th>
+                                        <td>Security</td>   
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="security" id="security_very_satisfied" value="very effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="security" id="security_effective" value="effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="security" id="security_ineffective" value="ineffective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="security" id="security_dont_know" value="dont know">
+                                        </td>
+                                    </tr>
+
+                                     <tr>
+                                        <th scope="row">i.</th>
+                                        <td>Camp Market</td>   
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="camp_market" id="camp_market_very_satisfied" value="very effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="camp_market" id="camp_market_effective" value="effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="camp_market" id="camp_market_ineffective" value="ineffective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="camp_market" id="camp_market_dont_know" value="dont know">
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th scope="row">j.</th>
+                                        <td>Stores</td>   
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="stores" id="stores_very_satisfied" value="very effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="stores" id="stores_effective" value="effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="stores" id="stores_ineffective" value="ineffective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="stores" id="stores_dont_know" value="dont know">
+                                        </td>
+                                    </tr>
+
+                                     <tr>
+                                        <th scope="row">k.</th>
+                                        <td>OBS</td>   
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="obs" id="obs_very_satisfied" value="very effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="obs" id="obs_effective" value="effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="obs" id="obs_ineffective" value="ineffective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="obs" id="obs_dont_know" value="dont know">
+                                        </td>
+                                    </tr>
+
+                                     <tr>
+                                        <th scope="row">l.</th>
+                                        <td>Sports</td>   
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="sports" id="sports_very_satisfied" value="very effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="sports" id="sports_effective" value="effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="sports" id="sports_ineffective" value="ineffective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="sports" id="sports_dont_know" value="dont know">
+                                        </td>
+                                    </tr>
+
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="" class="col-sm-4 col-form-label">Assess the level of corps members' participation in the following camp activities</label>
+                            <div class="col-sm-8">
+                                <table class="table table-responsive">
+                                    <thead class="thead-default">
+                                    <tr>
+                                        <th>S/NO</th>
+                                        <th>Camp Committees</th>
+                                        <th>Very Effective</th>
+                                        <th>Effective</th>
+                                        <th>Ineffective</th>
+                                        <th>Don't Know</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                   
+                                    <tr>
+                                        <th scope="row">a.</th>
+                                        <td>Food</td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_food" id="participation_food_very_effective" value="very effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_food" id="participation_food_effective" value="effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_food" id="participation_food_ineffective" value="ineffective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_food" id="participation_food_dont_know" value="dont know">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">b.</th>
+                                        <td>Health</td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_health" id="participation_health_very_satisfied" value="very effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_health" id="participation_health_effective" value="effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_health" id="participation_health_ineffective" value="ineffective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_health" id="participation_health_dont_know" value="dont know">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">c.</th>
+                                        <td>Socials</td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_socials" id="participation_socials_very_satisfied" value="very effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_socials" id="participation_socials_effective" value="effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_socials" id="participation_socials_ineffective" value="ineffective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_socials" id="participation_socials_dont_know" value="dont know">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">d.</th>
+                                        <td>Disciplinary</td>   
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_disciplinary" id="participation_disciplinary_very_satisfied" value="very effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_disciplinary" id="participation_disciplinary_effective" value="effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_disciplinary" id="participation_disciplinary_ineffective" value="ineffective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_disciplinary" id="participation_disciplinary_dont_know" value="dont know">
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th scope="row">e.</th>
+                                        <td>Maintenance</td>   
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_maintenance" id="participation_maintenance_very_satisfied" value="very effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_maintenance" id="participation_maintenance_effective" value="effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_maintenance" id="participation_maintenance_ineffective" value="ineffective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_maintenance" id="participation_maintenance_dont_know" value="dont know">
+                                        </td>
+                                    </tr>
+
+                                     <tr>
+                                        <th scope="row">f.</th>
+                                        <td>Lecture</td>   
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_lecture" id="participation_lecture_very_satisfied" value="very effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_lecture" id="participation_lecture_effective" value="effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_lecture" id="participation_lecture_ineffective" value="ineffective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_lecture" id="participation_lecture_dont_know" value="dont know">
+                                        </td>
+                                    </tr>
+
+                                     <tr>
+                                        <th scope="row">g.</th>
+                                        <td>Security</td>   
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_security" id="participation_security_very_satisfied" value="very effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_security" id="participation_security_effective" value="effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_security" id="participation_security_ineffective" value="ineffective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_security" id="participation_security_dont_know" value="dont know">
+                                        </td>
+                                    </tr>
+
+                                      <tr>
+                                        <th scope="row">h.</th>
+                                        <td>OBS</td>   
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_obs" id="participation_obs_very_satisfied" value="very effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_obs" id="participation_obs_effective" value="effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_obs" id="participation_obs_ineffective" value="ineffective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_obs" id="participation_obs_dont_know" value="dont know">
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th scope="row">i.</th>
+                                        <td>Sports</td>   
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_sports" id="participation_sports_very_satisfied" value="very effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_sports" id="participation_sports_effective" value="effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_sports" id="participation_sports_ineffective" value="ineffective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_sports" id="participation_sports_dont_know" value="dont know">
+                                        </td>
+                                    </tr>
+
+                                     <tr>
+                                        <th scope="row">j.</th>
+                                        <td>Camp Market</td>   
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_camp_market" id="participation_camp_market_very_satisfied" value="very effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_camp_market" id="participation_camp_market_effective" value="effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_camp_market" id="participation_camp_market_ineffective" value="ineffective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_camp_market" id="participation_camp_market_dont_know" value="dont know">
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th scope="row">k.</th>
+                                        <td>Stores</td>   
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_stores" id="participation_stores_very_satisfied" value="very effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_stores" id="participation_stores_effective" value="effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_stores" id="participation_stores_ineffective" value="ineffective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="participation_stores" id="participation_stores_dont_know" value="dont know">
+                                        </td>
+                                    </tr>
+
+
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        
+                        <div class="form-group row">
+                            <label for="" class="col-sm-4 col-form-label">How organized were the following? Please rate accordingly</label>
+                           <div class="col-sm-8">
+                                <table class="table table-responsive">
+                                    <thead class="thead-default">
+                                    <tr>
+                                        <th>S/NO</th>
+                                        <th>Activities</th>
+                                        <th>Very Organized</th>
+                                        <th>Not Organized</th>
+                                        <th>Don't Know</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                   
+                                    <tr>
+                                        <th scope="row">a.</th>
+                                        <td>Directional SIgnpost</td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="directional_signpost" id="directional_signpost" value="very organized">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="directional_signpost" id="directional_signpost" value="organized">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="directional_signpost" id="directional_signpost" value="not organized">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="directional_signpost" id="directional_signpost" value="dont know">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">b.</th>
+                                        <td>Reception at the gate</td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="gate_reception" id="gate_reception" value="very organized">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="gate_reception" id="gate_reception" value="organized">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="gate_reception" id="gate_reception" value="not organized">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="gate_reception" id="gate_reception" value="dont know">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">c.</th>
+                                        <td>Registration</td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="activity_registration" id="activity_registration" value="very effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="activity_registration" id="activity_registration" value="effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="activity_registration" id="activity_registration" value="ineffective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="activity_registration" id="activity_registration" value="dont know">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">d.</th>
+                                        <td>Accomodation</td>   
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="activity_registration" id="activity_registration" value="very effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="activity_registration" id="activity_registration" value="effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="activity_registration" id="activity_registration" value="ineffective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="activity_registration" id="activity_registration" value="dont know">
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th scope="row">e.</th>
+                                        <td>Feeding</td>   
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="activity_feeding" id="activity_feeding" value="very effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="activity_feeding" id="activity_feeding" value="effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="activity_feeding" id="activity_feeding" value="ineffective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="activity_feeding" id="activity_feeding" value="dont know">
+                                        </td>
+                                    </tr>
+
+                                     <tr>
+                                        <th scope="row">f.</th>
+                                        <td>Kitting</td>   
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="activity_kitting" id="activity_kitting" value="very effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="activity_kitting" id="activity_kitting" value="effective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="activity_kitting" id="activity_kitting" value="ineffective">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="activity_kitting" id="activity_kitting" value="dont know">
+                                        </td>
+                                    </tr>
+
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-md-4 offset-md-4">
+                                <a href="form3.html" class="btn btn-outline-success font-weight-bold">Back</a>
+                                <a href="form5.html" class="btn btn-success font-weight-bold">Next</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                
+
+                <!--<div class="card mb-4">
+                    <div class="card-block">
+                        <h1 class="mb-4">Feeding</h1>
+
+                        <div class="form-group row">
+                            <label for="" class="col-sm-4 col-form-label">How satisfied were you with the following?</label>
+                            <div class="col-sm-8">
+                                <table class="table table-responsive">
+                                    <thead class="thead-default">
+                                    <tr>
+                                        <th>S/NO</th>
+                                        <th>Description</th>
+                                        <th>Very satisfied</th>
+                                        <th>Satisfied</th>
+                                        <th>Fairly Satisfied</th>
+                                        <th>Not Satisfied</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <th scope="row">a.</th>
+                                        <td>Feeding arrangement in general</td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="feeding" id="feeding_very_satisfied" value="feeding_arrangement">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="feeding" id="feeding_satisfied" value="feeding_satisfied">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="feeding" id="feeding_fairly_satisfied" value="feeding_fairly_satisfied">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="feeding" id="feeding_not_satisfied" value="feeding_not_satisfied">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">b.</th>
+                                        <td>Quantity of food</td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="quantity" id="quantity_very_satisfied" value="quanitiy_very_satisfied">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="quantity" id="quantity_satisfied" value="quantity_satisfied">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="quantity" id="quanitity_fairly_satisfied" value="quanitity_fairly_satisfied">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="quantity" id="quantity_not_satisfied" value="quantity_not_satisfied">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">c.</th>
+                                        <td>Quality of food served</td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="quality" id="quality_very_satisfied" value="quality very satisfied">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="quality" id="quality_satisfied" value="quality satisfied">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="quality" id="quality_fairly_satisfied" value="quality fairly satisfied">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="quality" id="quality_not_satisfied" value="quality not satisfied">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">d.</th>
+                                        <td>Involvement of corps members in preparation of food</td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="preparation" id="preparation_very_satisfied" value="preparation very satisfied">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="preparation" id="preparation_satisfied" value="preparation satisfied">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="preparation" id="preparation_fairly_satisfied" value="preparation fairly satisfied">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="preparation" id="preparation_not_satisfied" value="preparation not satisfied">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">e.</th>
+                                        <td>Mode of serving food</td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="serving_food" id="serving_very_satisfied" value="serving very satisfied">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="serving_food" id="serving_satisfied" value="serving satisfied">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="serving_food" id="serving_fairly_satisfied" value="serving fairly satisfied">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="radio" class="form-check-input" name="serving_food" id="serving_not_satisfied" value="serving not satisfied">
+                                        </td>
+                                    </tr>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>-->
+
+                <!--<div class="card">
+                    <div class="card-block">
+                        <h1 class="mb-4">HEALTH CARE</h1>
+
+                        <div class="form-group row">
+                            <label for="" class="col-sm-4 col-form-label">Was there a functional camp clinic?</label>
+                            <div class="col-sm-8">
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="camp_clinic" id="yes" value="yes">
+                                        Yes
+                                    </label>
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="camp_clinic" id="no" value="no">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="" class="col-sm-4 col-form-label">How do you rate the performance of the clinic?</label>
+                            <div class="col-sm-8">
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="performance_camp_clinic" id="performance_very_good" value="very good">
+                                        Very good
+                                    </label>
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="performance_camp_clinic" id="performance_good" value="performance_good">
+                                        Good
+                                    </label>
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="performance_camp_clinic" id="performance_poor" value="performance_poor">
+                                        Poor
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-md-4 offset-md-4">
+                                <a href="form2.html" class="btn btn-outline-success font-weight-bold">Back</a>
+                                <a href="form4.html" class="btn btn-success font-weight-bold">Next</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>-->
+
+            </div>
+
+
+        </form>
+    </div>
+</div>
+
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+<script src="js/jquery.min.js"></script>
+<script src="js/tether.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
